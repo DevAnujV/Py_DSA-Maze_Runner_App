@@ -93,6 +93,7 @@ https://seneca-dsa456.github.io/dsa456-s23/a3.html
 * Load each mazerunner
 
 Take a screenshot of each the two maze
+
 ![image](https://github.com/DevAnujV/Py_DSA-Maze_Runner_Project/assets/113152048/4b99c4b7-ba61-4d7a-acd8-552acd370e98)
 
 ![image](https://github.com/DevAnujV/Py_DSA-Maze_Runner_Project/assets/113152048/2c8b7c07-750b-40e5-b085-ad803fabd32d)
