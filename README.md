@@ -1,84 +1,6 @@
 
-## Assignment Objectives:
 
-In this assignment, you will:
-
-* Implement some graph algorithms
-
-NOTE: **as this assignment is about implementing data structures, you are not allowed to make use of any python libraries or use built-in python data structures and functions unless specified.  If you are not sure, please ask your professor.  Any use a built-in libraries or functions without approval will result in having to redo the assignment with a grade penalty of -50%**
-
-## Part A: MinHeap (10 marks)
-
-Create a class that will implement a MinHeap.  A MinHeap has the following member functions:
-
-```python
-def __init__(self, arr = [])
-```
-When a MinHeap is instantiated, it is passed a python list that may be empty.  You may assume that any values in the list are comparable using comparison operators such as <, <=, >=, >, == and !=.   This initializer will initialize a heap using this array.
-
-
-***
-
-```python
-def insert(self, element)
-```
-This function adds element to the MinHeap
-
-***
-
-```python
-def get_min(self)
-```
-This function returns smallest value in the MinHeap without altering the data structure
-
-***
-```python
-def extract_min(self)
-```
-
-This function removes the smallest value from the MinHeap and returns that value
-
-***
-
-```python
-def is_empty(self):
-```
-This function returns True if the MinHeap does not have any values in the heap, False otherwise
-
-```python
-def __len__(self):
-```
-This function returns number of values stored in the heap
-
-
-## Part B: Minimum Spanning Tree (10 marks)
-
-Write a function that will find the minimum spanning tree of a graph using either Kruskal's or Prim's algorithm.  You can find the description of Kruskal's and Prim's algorithm here.  Which one you choose is up to you.  if you use Kruskal's algorithm you will need to make use of the disjoint set from A1, if you use a Prims, you will need the MinHeap from part B:
-
-https://seneca-ictoer.github.io/data-structures-and-algorithms/G-Graphs/mst
-
-Write the following function:
-
-```python
-def minimum_spanning_tree(graph)
-```
-
-This function returns a list of edges that represents a minimum spanning tree.  Each element in the list of edges is made up of a tuple of two vertices
-
-For example, suppose you were given this graph:
-
-![Graph](https://user-images.githubusercontent.com/1699186/229127403-21643bca-ff75-42a8-b3ae-3df9f4d1b29f.png)
-
-
-You function would return a list with the following edges:
-
-[(2, 3), (5, 6), (0, 1), (3, 4), (0, 2), (4, 5)] which represents the MST in this picture
-
-![MST of Graph](https://user-images.githubusercontent.com/1699186/229127426-eadace3e-11c3-4575-9f35-2c7acda82846.png)
-
-
-
-## Part C: Maze Generation (10 marks)
+## Part C: Maze Generation
 
 
 In this last part of A3, you will use what you have created in this assignment and previous assignments to:
@@ -170,6 +92,7 @@ https://seneca-dsa456.github.io/dsa456-s23/a3.html
 * Load each maze
 * Load each mazerunner
 
-Take a screenshot of each the two maze with maze runs add it to a3.md
+Take a screenshot of each the two maze
+![image](https://github.com/DevAnujV/Py_DSA-Maze_Runner_Project/assets/113152048/4b99c4b7-ba61-4d7a-acd8-552acd370e98)
 
-* NOTE: due to the random nature of how you generate the maze, each test run will produce different mazes even without changing the code.  This is to be expected. 
+![image](https://github.com/DevAnujV/Py_DSA-Maze_Runner_Project/assets/113152048/2c8b7c07-750b-40e5-b085-ad803fabd32d)
